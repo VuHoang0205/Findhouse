@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="input_email_register">Nhập Email Đăng Ký</string>
+    <string name="input_pass">Nhập Mật Khẩu</string>
+    <string name="input_pass_2">Nhập Lại Mật Khẩu</string>
+    <string name="note_register">Vui lòng đăng ký với email mà bạn sử dụng để xác nhận và tránh các sự cố về tài khoản!</string>
+    <string name="backtologin">Quay Lại</string>
+    <string name="register_account">Đăng Ký Tài Khoản</string>
+    <string name="lostpass">Mất Mật Khẩu?</string>
+    <string name="input_email">Nhập Email</string>
+    <string name="login_title">Đăng Nhập</string>
+    <string name="fblogin">Sign In Google</string>
+    <string name="register_new">Đăng Ký Mới</string>
+    <string name="facebook_app_id">750011395386677</string>
+    <string name="registered_dialog"> Vui lòng xác minh Email trước khi đăng nhập </string>
+    <string name="logout_dialog"> Bạn muốn đăng xuất khỏi MyApp ? </string>
+    <string name="delete_dialog"> Bạn muốn xóa nhà trọ khỏi MyApp ? </string>
+    <string name="delete_dialog_img"> Bạn muốn xóa ảnh khỏi nhà trọ ? </string>
+    <string name="thong_bao"> Vui lòng nhập chính xác Email để được hỗ trợ  </string>
+    <string name="verifiation">Truy cập Email để xác thực tài khoản</string>
+    <string name="login">Đang đăng nhập</string>
+    <string name="place"> Place</string>
+    <string name="house"> House</string>
+    <string name="latest"> Latest</string>
+    <string name="category"> Category</string>
+    <string name="area"> Area</string>
+    <string name="gan_toi"> Gần tôi</string>
+    <string name="danh_gia"> Đánh giá</string>
+    <string name="thong_tin"> Thông tin</string>
+    <string name="blogs"> Blogs</string>
+    <string name="topmember"> Top thành viên</string>
+    <string name="thong_tin_ung_dung"> Thông tin Application</string>
+    <string name="dat_phong"> Đặt Phòng</string>
+    <string name="key_hash">7BGdfb9zKM1LzNspFqfpQmOz/Nw=</string>
+    <string name="title_register_house">Bạn muốn đăng tin nhà trọ hãy đăng ký với MyApp</string>
+    <string name="map_api_key">AIzaSyB_ELPfqN5_k7geX0HdkBHvELcoO0jYOO4</string>
+
+</resources>

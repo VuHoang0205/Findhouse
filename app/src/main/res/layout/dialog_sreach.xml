@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="8dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Tìm kiếm nhà trọ "
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Tìm kiếm theo khu vực"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tvInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/edt_khu_vuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập khu vực bạn muốn tìm kiếm"
+            android:inputType="textMultiLine"
+            android:singleLine="true"
+            android:textSize="@dimen/normal_text" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/txt_distance_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Khoảng cách nhỏ nhất"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <SeekBar
+        android:id="@+id/seek_bar_distance_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/txt_distance_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Khoảng cách lớn nhất"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <SeekBar
+        android:id="@+id/seek_bar_distance_max"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/txt_value_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Giá phòng nhỏ nhất"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <SeekBar
+        android:id="@+id/seek_bar_value_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/txt_value_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Giá phòng lớn nhất"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <SeekBar
+        android:id="@+id/seek_bar_value_max"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_sreach_house"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_sreach"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="Tìm kiếm"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+</LinearLayout>

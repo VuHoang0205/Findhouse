@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_home"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/netedScrollView_place"
+            layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_near_my"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:drawableLeft="@drawable/icon_nearby"
+                        android:drawablePadding="10dp"
+                        android:gravity="left|center"
+                        android:padding="4dp"
+                        android:text="@string/gan_toi"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        android:id="@+id/btn_search_by_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:drawableLeft="@drawable/icon_blog"
+                        android:drawablePadding="10dp"
+                        android:gravity="left|center"
+                        android:padding="4dp"
+                        android:text="Search by price"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_review"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:drawableLeft="@drawable/icon_review"
+                        android:drawablePadding="10dp"
+                        android:gravity="left|center"
+                        android:padding="4dp"
+                        android:text="@string/danh_gia"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        android:id="@+id/btn_sreach"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:drawableLeft="@drawable/icon_sreach"
+                        android:drawablePadding="10dp"
+                        android:gravity="left|center"
+                        android:padding="4dp"
+                        android:text="Tìm kiếm"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!--<Button-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@color/white"-->
+                    <!--android:drawableLeft="@drawable/icon_member"-->
+                    <!--android:drawablePadding="10dp"-->
+                    <!--android:gravity="left|center"-->
+                    <!--android:padding="4dp"-->
+                    <!--android:text="@string/topmember"-->
+                    <!--android:textAllCaps="false" />-->
+
+                    <!--<Button-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@color/white"-->
+                    <!--android:drawableLeft="@drawable/icon_top_member"-->
+                    <!--android:drawablePadding="10dp"-->
+                    <!--android:gravity="left|center"-->
+                    <!--android:padding="4dp"-->
+                    <!--android:text="@string/topmember"-->
+                    <!--android:textAllCaps="false" />-->
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/progess_place"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rcv_place_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="460dp"
+                    android:scrollbarSize="2dp"
+                    android:scrollbarThumbVertical="@color/home_color"
+                    android:scrollbars="vertical" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
